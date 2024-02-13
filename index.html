@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="index.js"></script>
+
+    <!-- Imported fonts: Raleway:wght@200;500;700;800 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FurEver Pet Adoptions</title>
+
+</head>
+
+<body>
+
+    <header> 
+
+        <div id ="mainheader">
+    
+            <div>
+                <img src="./assets/logo.jpg" class= "logo" alt="logo">
+        
+                <h1 id = "logo-name" class= "logo-parent">FurEver</h1>
+            </div>
+    
+            
+            <nav class="topnav" id = "topnavbar">
+                <a class="active" href="#home">Home</a>
+                <a href="#adopt">Adopt</a>
+                <a href="#waystogive">Ways To Give</a>
+                <a href="#contact">Contact</a>
+                <a href="#aboutus">About Us</a>
+            </nav>
+
+
+            <div class="icon">
+                <img src="assets/contact-icon.jpg" alt="contact">
+                <img src="assets/camera-icon.jpg" alt="camera">
+                <img src="assets/email-icon.jpg" alt="email">
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <!-- SEARCH BAR  -->
+    <section id="search-section">
+        <form id="search-form">
+        <input type="search" id="search-query" name="search-value" placeholder="&#128069">
+        </form>
+
+        <h1 id="slogan">Making Paw-sitive Connections: FurEver Adoptions</h1>
+        
+    </section>
+    
+
+    <!-- SLOGAN -->
+
+    
+    
+
+    <!-- PET DISPLAY CONTAINERS -->
+
+    <section id="pet-container">
+
+
+        <div id="pet-nav">
+        
+        <!-- Adoption Form that will be hidden on initial load but come up with a pet is "licked"-->
+        <!--Note that this is hidden at first -->
+        <form id = "adoption-form"> 
+            <label for="adopter-fname">First name:</label><br>
+            <input type="text" id="adopter-fname" name="fname"></input><br>
+            <label for="adopter-lname">Last name:</label><br>
+            <input type="text" id="adopter-lname" name="lname"></input><br>
+            <label for="adopter-email">Email:</label><br>
+            <input type="text" id="adopter-email" name="email"></input><br>
+            <label for="adopter-phone">Phone Number:</label><br>
+            <input type="text" id="adopter-phone" name="phone"></input><br>
+            <label for="adopter-zipcode">Zip Code:</label><br>
+            <input type="text" id="adopter-zipcode" name="zipcode"></input><br>
+            <label for="adopter-details">In 100 words or less, tell us why you are interested in adopting?</label><br>
+            <input type="text" id="adopter-details" name="details"><br>
+            <button type="submit" form="adoption-form" value="SUBMIT">Submit</button>
+        </form>
+
+        
+
+        
+        </div>
+    
+
+        <!-- PET CARD -->
+            <section id= "card">
+                <div class = "pet-card">
+                    
+                    <img src="" id = "image-png">
+
+                    <div class="pet-info">
+
+
+                    <h2 class="name" id = "current-pet-name"></h2>
+
+                    <h3 class="age"></h3>
+                    <h3 class="breed"></h3>
+                    <h3 class="sex"></h3>
+                    <h3 class="birthday"></h3>
+                    <h3 class="tricks"></h3>
+                    <h3 class="species"></h3>
+
+                    </div>
+
+                    <div id="pet-button">
+                    <button id= "lick-button" 
+                    role="button">LICK ME</button>
+
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+</body>
+</html>
+
+

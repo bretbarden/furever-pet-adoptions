@@ -1,0 +1,110 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Winnie Purrington",
+      "age": "4 years",
+      "birthday": "August 12th",
+      "breed": "Tabby",
+      "image": "./pet-adoption-pics/winnie-purrington.jpg",
+      "pngImage": "./pet-png/winnie.png",
+      "tricks": "Nose Kiss",
+      "species": "Cat",
+      "sex": "Female",
+      "licks": 0,
+      "licked": false
+    },
+    {
+      "id": 2,
+      "name": "Rover Fluffington",
+      "age": "7 months",
+      "birthday": "December 17th",
+      "breed": "Labrador",
+      "image": "./pet-adoption-pics/rover-fluffington.jpg",
+      "pngImage": "./pet-png/rover.png",
+      "tricks": "Fist Bump",
+      "species": "Dog",
+      "sex": "Male",
+      "licks": 0,
+      "licked": false
+    },
+    {
+      "id": 3,
+      "name": "Pixie Twinkletoes",
+      "age": "4 months",
+      "birthday": "March 29th",
+      "breed": "Ragamuffin",
+      "image": "./pet-adoption-pics/pixie-twinkletoes.jpg",
+      "pngImage": "./pet-png/pixie.png",
+      "tricks": "Walking the catwalk",
+      "species": "Cat",
+      "sex": "Female",
+      "licks": 0,
+      "licked": false
+    },
+    {
+      "id": 4,
+      "name": "Mocha Buttercup",
+      "age": "6 years",
+      "birthday": "July 10th",
+      "breed": "Golden Retriever",
+      "image": "./pet-adoption-pics/mocha-buttercup.jpg",
+      "pngImage": "./pet-png/mocha.png",
+      "tricks": "Nudge Nose",
+      "species": "Dog",
+      "sex": "Female",
+      "licks": 0,
+      "licked": false
+    },
+    {
+      "id": 5,
+      "name": "Petunia Puddlepaws",
+      "age": "10 months",
+      "birthday": "September 23rd",
+      "breed": "British Shorthair",
+      "image": "./pet-adoption-pics/petunia-puddlepaws.jpg",
+      "pngImage": "./pet-png/petunia.png",
+      "tricks": "Eye flutter",
+      "species": "Cat",
+      "sex": "Female",
+      "licks": 0,
+      "licked": false
+    },
+    {
+      "id": 6,
+      "name": "Max Cuddlebuns",
+      "age": "2 years",
+      "birthday": "June 23rd",
+      "breed": "Havanese",
+      "image": "./pet-adoption-pics/max-cuddlebuns.jpg",
+      "pngImage": "./pet-png/max.png",
+      "tricks": "Can Say Please",
+      "species": "Dog",
+      "sex": "Male",
+      "licks": 0,
+      "licked": false
+    }
+  ],
+  "adopters": [
+    {
+      "fname": "Seth",
+      "lname": "Barden",
+      "email": "seth@hotmailOMG.com",
+      "phone": "33367948576",
+      "zipcode": "292038",
+      "details": "No longer allergic to cats!",
+      "pet": "Pixie Twinkletoes",
+      "id": 1
+    },
+    {
+      "fname": "Bret",
+      "lname": "Barden",
+      "email": "bret@holymountain.com",
+      "phone": "9193829274",
+      "zipcode": "1029291",
+      "details": "I lurv kat!",
+      "pet": "Winnie Purrington",
+      "id": 2
+    }
+  ]
+}
